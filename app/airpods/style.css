@@ -1,10 +1,11 @@
 html {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 body {
     height: 5000px;
-    background: #000;
+    background-color: #000 !important;
 }
 
 canvas {
