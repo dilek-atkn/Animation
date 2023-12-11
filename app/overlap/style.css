@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel {
+    width: 100vw;
+    flex: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+
+.panel:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.nav {
+    width: 40px;
+    height: 100vh;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    color: white;
+    background-color: midnightblue;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}

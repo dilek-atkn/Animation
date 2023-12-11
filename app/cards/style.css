@@ -1,0 +1,29 @@
+
+.card {
+    transform: perspective(1000px) rotateY(-25deg);
+}
+
+#card1 {
+    left: 20%;
+    z-index: 5
+}
+
+#card2 {
+    left: 30%;
+    z-index: 4
+}
+
+#card3 {
+    left: 40%;
+    z-index: 3
+}
+
+#card4 {
+    left: 50%;
+    z-index: 2
+}
+
+#card5 {
+    left: 60%;
+    z-index: 1
+}
