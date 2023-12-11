@@ -3,7 +3,6 @@
 import React, {useEffect, useRef} from "react";
 import {gsap} from "gsap";
 import DraggableHomeButton from "@/components/DraggableHomeButton/DraggableHomeButton";
-//import './animation';
 
 const MagneticButton = () => {
     const ref = useRef<any>(null);

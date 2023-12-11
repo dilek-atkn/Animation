@@ -5,7 +5,6 @@ import "./style.css";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import {ScrollSmoother} from "gsap/ScrollSmoother";
-import useMousePosition from "@/utils/helper";
 import DraggableHomeButton from "@/components/DraggableHomeButton/DraggableHomeButton";
 import ChangingBackground from "@/app/mouseEffects/partials/ChangingBackground";
 import MagneticButton from "@/app/mouseEffects/partials/MagneticButton";
@@ -13,8 +12,6 @@ import MagneticButton from "@/app/mouseEffects/partials/MagneticButton";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const MouseEffects = () => {
-    const clientX = useMousePosition();
-
     useEffect(() => {
         ScrollSmoother.create({
             wrapper: "smooth-wrapper",

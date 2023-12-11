@@ -41,7 +41,7 @@
     gap: 16px;
 }
 
-.img {
+.box-image {
     width: 100% !important;
     max-width: 400px !important;
     height: 80%;
@@ -71,6 +71,7 @@
     perspective: 2200px;
     background-color: black;
 }
+
 
 #ImgWrapper img {
     position: absolute;
@@ -138,6 +139,7 @@
     color: white;
 }
 
+/*mixscroll*/
 li {
     width: clamp(500px, 30vw, 800px);
 }
@@ -157,4 +159,20 @@ li {
 
 .demo-gallery:not(.last) {
     padding-bottom: 1rem;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.mix-img {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+}
+
+.demo-text {
+    font-size: clamp(8rem, 15vw, 16rem);
+    line-height: 1;
+    font-weight: 900;
 }

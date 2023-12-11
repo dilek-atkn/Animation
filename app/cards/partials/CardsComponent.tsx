@@ -39,7 +39,7 @@ const CardsComponent = () => {
             {cardsData.map((card, index) => (
                 <Card
                     className="card w-80 h-[350px] bg-white rounded-lg shadow-lg shadow-gray-400 p-4 top-40 absolute"
-                    key={card.text}
+                    key={card.text + index}
                     id={`card${index + 1}`}
                 >
                     <CardContent className="m-2.5">

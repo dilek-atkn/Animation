@@ -3,14 +3,13 @@
 import React, {useEffect} from "react";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {ScrollSmoother} from "gsap/ScrollSmoother";
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
 
 const HorizontalScroll = () => {
     useEffect(() => {
-        let images = gsap.utils.toArray(".img");
-        gsap.set(".img", {backgroundPosition: "43% 100%"});
+        let images = gsap.utils.toArray(".box-image");
+        gsap.set(".box-image", {backgroundPosition: "43% 100%"});
         gsap.to(images, {
             xPercent: -45 * images.length,
             ease: "none",
@@ -26,12 +25,12 @@ const HorizontalScroll = () => {
 
     return (
         <div className="box">
-            <div className="img"></div>
-            <div className="img"></div>
-            <div className="img"></div>
-            <div className="img"></div>
-            <div className="img"></div>
-            <div className="img"></div>
+            <div className="box-image"></div>
+            <div className="box-image"></div>
+            <div className="box-image"></div>
+            <div className="box-image"></div>
+            <div className="box-image"></div>
+            <div className="box-image"></div>
         </div>
     );
 };

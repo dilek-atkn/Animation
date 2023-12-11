@@ -3,10 +3,9 @@
 import React, {useEffect} from "react";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {ScrollSmoother} from "gsap/ScrollSmoother";
 import {zoomImg} from "@/app/scrollEffects/data";
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
 
 const ImgZoom = () => {
     useEffect(() => {

@@ -15,12 +15,10 @@
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.11.14",
     "@mui/styles": "5.13.2",
-    "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
     "framer-motion": "^7.6.19",
     "gsap": "npm:@gsap/shockingly@^3.12.3",
     "next": "13.4.19",
-    "prettier": "^3.0.2",
+    "package-name": "^0.1.0",
     "prettier-plugin-tailwindcss": "^0.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -50,7 +48,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-testing-library": "5.10.2",
     "postcss": "^8.4.30",
-    "prettier": "2.8.7",
+    "prettier": "^3.0.2",
     "pretty-quick": "3.1.3"
   }
 }
