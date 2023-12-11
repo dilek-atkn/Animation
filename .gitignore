@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
@@ -17,10 +16,11 @@
 /build
 
 # misc
+.idea
 .DS_Store
 *.pem
 
-# debug
+# log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
