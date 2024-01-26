@@ -16,7 +16,7 @@
     "@mui/material": "5.11.14",
     "@mui/styles": "5.13.2",
     "framer-motion": "^7.6.19",
-    "gsap": "npm:@gsap/shockingly@^3.12.3",
+    "gsap": "npm:@gsap/shockingly@^3.12.5",
     "next": "13.4.19",
     "package-name": "^0.1.0",
     "prettier-plugin-tailwindcss": "^0.5.3",
