@@ -3,14 +3,13 @@
 import {NextPage} from 'next'
 import {framerData, linksData, springData} from '@/app/data'
 import React from 'react'
-import Cursor from '@/components/Cursor/Cursor'
 import CardContent from '@mui/material/CardContent'
 import Card from "@mui/material/Card";
 
 const Home: NextPage = () => {
     return (
         <div id="animation" className="flex justify-center flex-col">
-            <Cursor/>
+            {/* <Cursor/>*/}
             <h1 className="mb-8 mt-8 w-full text-center text-4xl font-bold text-gray-800">
                 Demo verschiedener Animationen
             </h1>

@@ -26,6 +26,7 @@ const Cards = () => {
                 <div id='content'
                      className="content flex justify-center flex-col">
                     <CardsComponent/>
+                    {/* <StackUpCards/>*/}
                 </div>
             </div>
         </div>

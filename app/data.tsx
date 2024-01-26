@@ -40,8 +40,15 @@ export const linksData = [
         link: '/cards'
     },
     {
-        text: 'Landingpage / Header',
-        link: '/landingpage'
+        text: 'Landingpages',
+        link: '/landingpages'
     },
-
+    {
+        text: 'Headers',
+        link: '/headers'
+    },
+    {
+        text: 'Physics2D',
+        link: '/physics'
+    },
 ]

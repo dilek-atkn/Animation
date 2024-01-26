@@ -1,3 +1,6 @@
+body {
+    background: #dcdcdc !important;
+}
 
 .card {
     transform: perspective(1000px) rotateY(-25deg);
